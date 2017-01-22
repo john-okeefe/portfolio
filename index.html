@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>John's Web Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body data-spy="scroll" data-target="#my-nav-bar" offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-nav-bar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">John O'Keefe</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="my-nav-bar">
+                <ul class="nav navbar-nav nav-tabs" role="tablist">
+                    <!--                     <li><a href="#top" id="home-btn">Home</a></li> -->
+                    <li><a href="#about-me" id="about-btn">About Me</a></li>
+                    <li><a href="#portfolio" id="portfolio-btn">Portfolio</a></li>
+                    <li><a href="#contact" id="contact-btn">Contact Me</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <!--       <span id="top" ></span> -->
+        <!-- section -> div.container -> div.row -> div.col -->
+        <!--         <header class="header-content">
+            <div class="container">
+
+                <h1>Heading</h1>
+            </div>
+        </header> -->
+        <!-- About me section -->
+        <span id="about-me" class="anchor"></span>
+        <section class="section about-me">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="push-down">
+                        <h2><em>A little about me...</em></h2>
+                        <p class="lead"><em>Hi, I'm John. I've been a fan of technology for a very long time. I'm proficient with Linux and backend web services, but recently I find myself more interested in creating instead of just hosting websites, so I signed up with Free Code Camp and I've really been enjoying the course! </em></p>
+                    </div>
+                </div>
+                <img class="center-block push-down thumbnail" src="http://orlop.net/images/BibleTux.gif">
+            </div>
+        </section>
+        <!-- projects section -->
+        <span id="portfolio" class="anchor"></span>
+        <section class="section portfolio">
+            <div class="flex">
+                <h2 class="text-center">Portfolio</h2>
+                <div class="row text-center center-block">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail placeholder center-block">
+                            <p class="lead"><em>Placeholder</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail placeholder center-block">
+                            <p class="lead text-center"><em>Placeholder</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail placeholder center-block">
+                            <p class="lead text-center"><em>Placeholder</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail placeholder center-block">
+                            <p class="lead text-center"><em>Placeholder</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail placeholder center-block">
+                            <p class="lead text-center"><em>Placeholder</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail placeholder center-block">
+                            <p class="lead text-center"><em>Placeholder</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail placeholder center-block">
+                            <p class="lead text-center"><em>Placeholder</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail placeholder center-block">
+                            <p class="lead text-center"><em>Placeholder</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <span id="contact" class="anchor"></span>
+        <section class="section contact">
+            <div class="row">
+                <div class="col-xs-12 text-center center-block">
+                    <p class="lead">Find me on... </p>
+                    <a href="https://www.facebook.com/nymusicman"><i id="social-fb" class="fa fa-facebook-square fa-5x social"></i></a>
+                    <a href="https://twitter.com/nymusicman"><i id="social-tw" class="fa fa-twitter-square fa-5x social"></i></a>
+                    <a href="https://plus.google.com/112969116759191707889"><i id="social-gp" class="fa fa-google-plus-square fa-5x social"></i></a>
+                    <a href="mailto:jokeefe@fastmail.com"><i id="social-em" class="fa fa-envelope-square fa-5x social"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="section">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="text-center center-block">
+                    &copy;John O'Keefe
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+</body>
+</html>
